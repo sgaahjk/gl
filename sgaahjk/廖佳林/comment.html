@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <link href="css/1.css" rel="stylesheet" type="text/css" media="screen and (max-width: 767px)">
+        <link href="css/2.css" rel="stylesheet" type="text/css" media="screen and (min-width: 768px)">
+        <script type="text/javascript" src="js/1.js"></script>
+    </head>
+    <body>
+        <div class="div1">
+            <ul>
+                <a>Home</a>
+            </ul>
+            <ul>
+                <a href="#" target="_self" style="color: pink;padding:20px">Comment</a>
+            </ul>
+        </div>
+        <div class="div2">
+            <table>
+                <caption>
+                    <h1>Comment</h1>
+                </caption>
+                <form onsubmit="greet();"><tr>
+                    <td class="td1">Name:</td>
+                    <td class="td2"><input type="text" id="Name" required="required" class="inp">&lowast;</td>
+                </tr>
+                <tr>
+                    <td class="td1">E-mail:</td>
+                    <td class="td2"><input type="email" id="Email" required="required" class="inp">&lowast;</td>
+                </tr>
+                <tr>
+                    <td class="td1">Password:</td>
+                    <td class="td2"><input type="password" id="Pw" required="required" class="inp">&lowast;</td>
+                </tr>
+                <tr>
+                    <td class="td1">Comment:</td>
+                    <td class="td2"><textarea id="ta" rows="3" ></textarea></td>
+            </table>
+            <table class="t1">
+                <tr>
+                    <td class="td3"><input type="submit" id="sub" class="but" onclick="greet()"></td>
+                    <td class="td3"><input type="reset" id="res" class="but"></td>
+                </tr>
+            </table>
+        </div>
+        <div class="div3">
+                <span style="font-family:arial;color: white">Copyright-GL2017&copy; </span>                 
+        </div>
+    </body>
+</html>
